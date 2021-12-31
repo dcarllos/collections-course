@@ -53,11 +53,9 @@ public class ExercicioList {
 
         System.out.println("Ordene os itens da lista por ordem alfabética");
         Collections.sort(nomes);
-
         System.out.println(nomes);
 
-
-
+        System.out.println("Verifique se a lista está vazia: " + nomes.isEmpty());
 
 
 
